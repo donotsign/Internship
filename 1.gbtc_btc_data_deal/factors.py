@@ -1,7 +1,13 @@
+"""
+ Created on 2022/2/14
+ @author  : ivy
+ @File    : factors.py
+ @Description: 尝试构建因子
+"""
+
+
 import pandas as pd
 import numpy as np
-
-
 btc_data_close = pd.read_csv('btc_data_close.csv',index_col=0)
 
 def vol(data=btc_data_close):

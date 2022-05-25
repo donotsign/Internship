@@ -1,3 +1,10 @@
+"""
+ Created on 2022/2/10
+ @author  : ivy
+ @File    : arima.py
+ @Description: 尝试使用arima模型预测gbtc折价率
+"""
+
 import csv
 import pandas as pd
 import numpy as np
