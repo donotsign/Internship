@@ -1,3 +1,9 @@
+"""
+ Created on 2022/2/16
+ @author  : ivy
+ @File    : GBTC_discount_rate_predict
+ @Description: 尝试使用arima模型预测gbtc折价率
+"""
 import csv
 import pandas as pd
 import numpy as np
